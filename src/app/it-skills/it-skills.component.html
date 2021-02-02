@@ -1,9 +1,10 @@
 <p>it-skills works!</p>
-<div *ngFor="let skills of skillslist">
+<div class="flex-container">
+<div *ngFor="let skills of skillslist" class="flex-item">
   <h3>
     {{ skills.name }}
   </h3>
-  <mat-accordion >
+  <mat-accordion>
   <div *ngFor="let description of skills.description" >
 
 
@@ -18,4 +19,6 @@
 
   </div>
     </mat-accordion>
+  <mat-progress-spinner [value]="60" [diameter]="100" [strokeWidth]="10"></mat-progress-spinner>
+</div>
 </div>
