@@ -12,5 +12,12 @@ export const skillslist = [
     note: 2,
     description: ['Course', 'Project'],
     value : 5
+  },
+  {
+    id: 3,
+    name: 'Python',
+    note: 2,
+    description: ['Projet cours', 'Tenserflow', 'Algo'],
+    value : 5
   }
 ];
