@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ItSkillsComponent } from './it-skills/it-skills.component';
@@ -20,6 +20,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     TooltipItSkillsComponent
   ],
   imports: [
+    ReactiveFormsModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatExpansionModule,
